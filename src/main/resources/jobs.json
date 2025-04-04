@@ -1,0 +1,852 @@
+[
+    {
+      "jobId": "001",
+      "jobTitle": "Software Engineer",
+      "jobPostDate": "2025-03-20",
+      "description": "Develop and maintain web applications using React.js and Node.js.",
+      "skillSet": ["React.js", "Node.js", "MongoDB", "JavaScript"],
+      "experience": "2-4 years",
+      "companyName": "Tech Corp",
+      "jobLocation": "San Francisco, USA",
+      "companyReview": {
+        "workLifeBalance": "Good",
+        "review": "Great team culture and work environment.",
+        "workCulture": "Supportive",
+        "salary": "$80,000 - $100,000",
+        "workingHours": "40 hrs/week"
+      }
+    },
+    {
+      "jobId": "002",
+      "jobTitle": "Data Scientist",
+      "jobPostDate": "2025-03-18",
+      "description": "Analyze data trends and develop machine learning models.",
+      "skillSet": ["Python", "TensorFlow", "SQL", "Pandas"],
+      "experience": "3-5 years",
+      "companyName": "AI Solutions",
+      "jobLocation": "San Francisco, USA",
+      "companyReview": {
+        "workLifeBalance": "Excellent",
+        "review": "Flexible working hours and great learning opportunities.",
+        "workCulture": "Innovative",
+        "salary": "$100,000 - $120,000",
+        "workingHours": "35 hrs/week"
+      }
+    },
+    {
+      "jobId": "003",
+      "jobTitle": "DevOps Engineer",
+      "jobPostDate": "2025-03-15",
+      "description": "Manage cloud infrastructure and CI/CD pipelines.",
+      "skillSet": ["AWS", "Docker", "Kubernetes", "CI/CD"],
+      "experience": "4-6 years",
+      "companyName": "CloudTech",
+      "jobLocation": "San Francisco, USA",
+      "companyReview": {
+        "workLifeBalance": "Moderate",
+        "review": "Challenging work but rewarding.",
+        "workCulture": "Fast-paced",
+        "salary": "$110,000 - $130,000",
+        "workingHours": "45 hrs/week"
+      }
+    },
+    {
+      "jobId": "004",
+      "jobTitle": "Frontend Developer",
+      "jobPostDate": "2025-03-12",
+      "description": "Build interactive UIs using Angular and TypeScript.",
+      "skillSet": ["Angular", "TypeScript", "CSS", "HTML"],
+      "experience": "2-3 years",
+      "companyName": "Web Innovators",
+      "jobLocation": "San Francisco, USA",
+      "companyReview": {
+        "workLifeBalance": "Good",
+        "review": "Great learning environment.",
+        "workCulture": "Collaborative",
+        "salary": "$75,000 - $95,000",
+        "workingHours": "40 hrs/week"
+      }
+    },
+    {
+      "jobId": "005",
+      "jobTitle": "Backend Developer",
+      "jobPostDate": "2025-03-10",
+      "description": "Develop scalable backend systems using Node.js and Express.",
+      "skillSet": ["Node.js", "Express", "PostgreSQL", "REST APIs"],
+      "experience": "3-5 years",
+      "companyName": "Backend Pros",
+      "jobLocation": "San Francisco, USA",
+      "companyReview": {
+        "workLifeBalance": "Average",
+        "review": "Demanding but rewarding work.",
+        "workCulture": "Challenging",
+        "salary": "$90,000 - $110,000",
+        "workingHours": "45 hrs/week"
+      }
+    },
+    {
+    "jobId": "006",
+    "jobTitle": "Frontend Developer",
+    "jobPostDate": "2025-03-19",
+    "description": "Design and implement UI components using React.js and TypeScript.",
+    "skillSet": ["React.js", "TypeScript", "CSS", "HTML"],
+    "experience": "1-3 years",
+    "companyName": "Innovate Tech",
+    "jobLocation": "San Francisco, USA",
+    "companyReview": {
+      "workLifeBalance": "Excellent",
+      "review": "Fast-paced and dynamic environment.",
+      "workCulture": "Collaborative",
+      "salary": "$85,000 - $110,000",
+      "workingHours": "38 hrs/week"
+    }
+  },
+  {
+    "jobId": "007",
+    "jobTitle": "Backend Engineer",
+    "jobPostDate": "2025-03-18",
+    "description": "Develop scalable backend services using Node.js and Express.",
+    "skillSet": ["Node.js", "Express.js", "MongoDB", "Redis"],
+    "experience": "3-5 years",
+    "companyName": "Cloud Solutions",
+    "jobLocation": "Seattle, USA",
+    "companyReview": {
+      "workLifeBalance": "Good",
+      "review": "Flexible remote work policy.",
+      "workCulture": "Innovative",
+      "salary": "$90,000 - $120,000",
+      "workingHours": "40 hrs/week"
+    }
+  },
+  {
+    "jobId": "008",
+    "jobTitle": "Full Stack Developer",
+    "jobPostDate": "2025-03-17",
+    "description": "Build and maintain web applications using React.js and Django.",
+    "skillSet": ["React.js", "Django", "PostgreSQL", "Python"],
+    "experience": "2-4 years",
+    "companyName": "NextGen Tech",
+    "jobLocation": "Austin, USA",
+    "companyReview": {
+      "workLifeBalance": "Moderate",
+      "review": "Challenging but rewarding projects.",
+      "workCulture": "Fast-paced",
+      "salary": "$95,000 - $115,000",
+      "workingHours": "42 hrs/week"
+    }
+  },
+  {
+    "jobId": "009",
+    "jobTitle": "Data Scientist",
+    "jobPostDate": "2025-03-16",
+    "description": "Analyze and interpret complex data to support business decisions.",
+    "skillSet": ["Python", "TensorFlow", "SQL", "Machine Learning"],
+    "experience": "3-6 years",
+    "companyName": "AI Labs",
+    "jobLocation": "Boston, USA",
+    "companyReview": {
+      "workLifeBalance": "Great",
+      "review": "Cutting-edge AI research projects.",
+      "workCulture": "Research-oriented",
+      "salary": "$100,000 - $130,000",
+      "workingHours": "40 hrs/week"
+    }
+  },
+	{
+    "jobId": "010",
+    "jobTitle": "Data Scientist",
+    "jobPostDate": "2025-03-16",
+    "description": "Analyze and interpret complex data to support business decisions.",
+    "skillSet": ["Python", "TensorFlow", "SQL", "Machine Learning"],
+    "experience": "3-6 years",
+    "companyName": "AI Labs",
+    "jobLocation": "Boston, USA",
+    "companyReview": {
+      "workLifeBalance": "Great",
+      "review": "Cutting-edge AI research projects.",
+      "workCulture": "Research-oriented",
+      "salary": "$100,000 - $130,000",
+      "workingHours": "40 hrs/week"
+     }
+    },
+    {
+        "jobId": "011",
+        "jobTitle": "Senior Data Scientist",
+        "jobPostDate": "2025-03-17",
+        "description": "Lead data science initiatives and develop AI-driven insights.",
+        "skillSet": ["Python", "Deep Learning", "Big Data", "SQL"],
+        "experience": "5-10 years",
+        "companyName": "Quantum Analytics",
+        "jobLocation": "New York, USA",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "A dynamic team working on AI innovations.",
+            "workCulture": "Fast-paced",
+            "salary": "$120,000 - $160,000",
+            "workingHours": "45 hrs/week"
+        }
+    },
+    {
+        "jobId": "012",
+        "jobTitle": "Machine Learning Engineer",
+        "jobPostDate": "2025-03-18",
+        "description": "Design, develop, and deploy machine learning models for real-world applications.",
+        "skillSet": ["Python", "TensorFlow", "PyTorch", "MLOps"],
+        "experience": "3-7 years",
+        "companyName": "AI Innovators",
+        "jobLocation": "San Francisco, USA",
+        "companyReview": {
+            "workLifeBalance": "Excellent",
+            "review": "Great benefits and a strong research team.",
+            "workCulture": "Innovative",
+            "salary": "$115,000 - $145,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "013",
+        "jobTitle": "AI Research Scientist",
+        "jobPostDate": "2025-03-19",
+        "description": "Conduct research in AI and develop novel algorithms for deep learning applications.",
+        "skillSet": ["Python", "NLP", "Computer Vision", "Reinforcement Learning"],
+        "experience": "5+ years",
+        "companyName": "DeepMind Research",
+        "jobLocation": "London, UK",
+        "companyReview": {
+            "workLifeBalance": "Moderate",
+            "review": "Opportunity to work with world-class AI researchers.",
+            "workCulture": "Academia-inspired",
+            "salary": "£95,000 - £140,000",
+            "workingHours": "45 hrs/week"
+        }
+    },
+    {
+        "jobId": "014",
+        "jobTitle": "Data Engineer",
+        "jobPostDate": "2025-03-20",
+        "description": "Develop scalable data pipelines and optimize database performance.",
+        "skillSet": ["SQL", "Kafka", "ETL", "Big Data"],
+        "experience": "4-8 years",
+        "companyName": "BigData Solutions",
+        "jobLocation": "Toronto, Canada",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Supportive work environment with cutting-edge projects.",
+            "workCulture": "Team-oriented",
+            "salary": "CAD 100,000 - CAD 130,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "015",
+        "jobTitle": "Computer Vision Engineer",
+        "jobPostDate": "2025-03-21",
+        "description": "Develop and optimize AI-driven image and video processing solutions.",
+        "skillSet": ["OpenCV", "TensorFlow", "C++", "Deep Learning"],
+        "experience": "3-6 years",
+        "companyName": "VisionAI Technologies",
+        "jobLocation": "Berlin, Germany",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Exciting projects in autonomous systems and AI-powered imaging.",
+            "workCulture": "Innovation-driven",
+            "salary": "€85,000 - €120,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "016",
+        "jobTitle": "Machine Learning Engineer",
+        "jobPostDate": "2025-03-22",
+        "description": "Develop and implement machine learning models for predictive analytics.",
+        "skillSet": ["Python", "TensorFlow", "Keras", "Deep Learning"],
+        "experience": "2-5 years",
+        "companyName": "TechAI Solutions",
+        "jobLocation": "Paris, France",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Focus on research and development with cutting-edge AI projects.",
+            "workCulture": "Collaborative",
+            "salary": "€90,000 - €130,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "017",
+        "jobTitle": "Data Scientist",
+        "jobPostDate": "2025-03-23",
+        "description": "Analyze large datasets to uncover trends and support business decisions.",
+        "skillSet": ["Python", "R", "SQL", "Machine Learning"],
+        "experience": "3-6 years",
+        "companyName": "DataXpert",
+        "jobLocation": "Toronto, Canada",
+        "companyReview": {
+            "workLifeBalance": "Excellent",
+            "review": "Innovative company with a diverse set of data projects.",
+            "workCulture": "Inclusive and growth-oriented",
+            "salary": "CAD 100,000 - CAD 130,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "018",
+        "jobTitle": "AI Research Scientist",
+        "jobPostDate": "2025-03-24",
+        "description": "Conduct cutting-edge AI research and develop novel algorithms for NLP and vision applications.",
+        "skillSet": ["Python", "NLP", "Computer Vision", "Reinforcement Learning"],
+        "experience": "4-8 years",
+        "companyName": "FutureAI Labs",
+        "jobLocation": "London, UK",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Highly collaborative research environment with access to state-of-the-art resources.",
+            "workCulture": "Research-driven",
+            "salary": "£95,000 - £135,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "019",
+        "jobTitle": "Computer Vision Engineer",
+        "jobPostDate": "2025-03-25",
+        "description": "Develop algorithms for image and video recognition using AI models.",
+        "skillSet": ["OpenCV", "PyTorch", "C++", "Deep Learning"],
+        "experience": "3-7 years",
+        "companyName": "PixelAI",
+        "jobLocation": "Berlin, Germany",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Opportunity to work on autonomous driving and smart city technologies.",
+            "workCulture": "Creative and fast-paced",
+            "salary": "€85,000 - €120,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "020",
+        "jobTitle": "Data Engineer",
+        "jobPostDate": "2025-03-26",
+        "description": "Design and build scalable data pipelines for AI-driven applications.",
+        "skillSet": ["SQL", "Spark", "Python", "ETL"],
+        "experience": "4-6 years",
+        "companyName": "CloudData Solutions",
+        "jobLocation": "Austin, USA",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Great work environment focused on cloud and big data solutions.",
+            "workCulture": "Supportive and team-oriented",
+            "salary": "$95,000 - $125,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "021",
+        "jobTitle": "Senior Data Scientist",
+        "jobPostDate": "2025-03-27",
+        "description": "Drive AI projects and implement solutions using large datasets and machine learning models.",
+        "skillSet": ["Python", "R", "SQL", "Deep Learning"],
+        "experience": "5-10 years",
+        "companyName": "DataWorks",
+        "jobLocation": "Seattle, USA",
+        "companyReview": {
+            "workLifeBalance": "Excellent",
+            "review": "Innovative, forward-thinking projects and a flexible work culture.",
+            "workCulture": "Empowering",
+            "salary": "$120,000 - $150,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "022",
+        "jobTitle": "AI Developer",
+        "jobPostDate": "2025-03-28",
+        "description": "Develop AI-driven solutions for image recognition and automation.",
+        "skillSet": ["TensorFlow", "Keras", "C++", "Python"],
+        "experience": "3-5 years",
+        "companyName": "AI Revolution",
+        "jobLocation": "Amsterdam, Netherlands",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Work on next-generation AI technologies in the robotics space.",
+            "workCulture": "Innovative and dynamic",
+            "salary": "€80,000 - €115,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "023",
+        "jobTitle": "AI Engineer",
+        "jobPostDate": "2025-03-29",
+        "description": "Develop AI systems for machine learning applications across multiple industries.",
+        "skillSet": ["Python", "PyTorch", "Machine Learning", "Deep Learning"],
+        "experience": "2-5 years",
+        "companyName": "TechAI Innovations",
+        "jobLocation": "Sydney, Australia",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Collaborative work environment with a focus on real-world AI solutions.",
+            "workCulture": "Creative and inclusive",
+            "salary": "AUD 100,000 - AUD 140,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "024",
+        "jobTitle": "Machine Learning Researcher",
+        "jobPostDate": "2025-03-30",
+        "description": "Research and develop novel machine learning algorithms and models.",
+        "skillSet": ["Python", "TensorFlow", "Reinforcement Learning", "NLP"],
+        "experience": "3-6 years",
+        "companyName": "AlphaTech AI",
+        "jobLocation": "Berlin, Germany",
+        "companyReview": {
+            "workLifeBalance": "Moderate",
+            "review": "Research-driven environment with exciting challenges in AI.",
+            "workCulture": "Innovative",
+            "salary": "€90,000 - €125,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "025",
+        "jobTitle": "Computer Vision Scientist",
+        "jobPostDate": "2025-03-31",
+        "description": "Research and implement advanced computer vision algorithms for real-world applications.",
+        "skillSet": ["OpenCV", "Python", "Deep Learning", "C++"],
+        "experience": "4-7 years",
+        "companyName": "VisionTech",
+        "jobLocation": "San Francisco, USA",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Great opportunity to work on autonomous vehicles and AI imaging.",
+            "workCulture": "Research-oriented",
+            "salary": "$105,000 - $145,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "026",
+        "jobTitle": "Deep Learning Engineer",
+        "jobPostDate": "2025-04-01",
+        "description": "Develop deep learning models for image recognition and NLP applications.",
+        "skillSet": ["Python", "PyTorch", "TensorFlow", "Neural Networks"],
+        "experience": "3-6 years",
+        "companyName": "NeuralTech",
+        "jobLocation": "New York, USA",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Exciting AI projects in healthcare and finance.",
+            "workCulture": "Fast-paced and research-driven",
+            "salary": "$110,000 - $140,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "027",
+        "jobTitle": "AI Research Engineer",
+        "jobPostDate": "2025-04-02",
+        "description": "Conduct AI research and develop new machine learning methodologies.",
+        "skillSet": ["Python", "Reinforcement Learning", "Computer Vision", "NLP"],
+        "experience": "4-8 years",
+        "companyName": "AI Innovations",
+        "jobLocation": "London, UK",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Focus on AI innovation with opportunities for publication.",
+            "workCulture": "Collaborative and academic-oriented",
+            "salary": "£100,000 - £135,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "028",
+        "jobTitle": "Machine Learning Engineer",
+        "jobPostDate": "2025-04-03",
+        "description": "Build and optimize machine learning models for big data applications.",
+        "skillSet": ["Python", "Scikit-learn", "Big Data", "TensorFlow"],
+        "experience": "2-5 years",
+        "companyName": "MLWorks",
+        "jobLocation": "Toronto, Canada",
+        "companyReview": {
+            "workLifeBalance": "Excellent",
+            "review": "Supportive environment with a focus on AI ethics.",
+            "workCulture": "Inclusive and innovation-driven",
+            "salary": "CAD 95,000 - CAD 125,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "029",
+        "jobTitle": "Senior Data Scientist",
+        "jobPostDate": "2025-04-04",
+        "description": "Analyze complex datasets and develop AI models for predictive analytics.",
+        "skillSet": ["Python", "R", "SQL", "Predictive Modeling"],
+        "experience": "5-10 years",
+        "companyName": "PredictAI",
+        "jobLocation": "Sydney, Australia",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Engaging projects in finance and healthcare AI.",
+            "workCulture": "Innovative and collaborative",
+            "salary": "AUD 120,000 - AUD 160,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "030",
+        "jobTitle": "NLP Engineer",
+        "jobPostDate": "2025-04-05",
+        "description": "Develop and improve natural language processing models for chatbots and automation.",
+        "skillSet": ["Python", "NLP", "Transformers", "Deep Learning"],
+        "experience": "3-6 years",
+        "companyName": "ChatAI",
+        "jobLocation": "Berlin, Germany",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Interesting work on conversational AI and automation.",
+            "workCulture": "Tech-driven and dynamic",
+            "salary": "€90,000 - €125,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "031",
+        "jobTitle": "AI Ethics Researcher",
+        "jobPostDate": "2025-04-06",
+        "description": "Research AI bias, fairness, and responsible AI deployment.",
+        "skillSet": ["Python", "AI Ethics", "Fairness Metrics", "Data Governance"],
+        "experience": "4-7 years",
+        "companyName": "EthicalAI",
+        "jobLocation": "Boston, USA",
+        "companyReview": {
+            "workLifeBalance": "Excellent",
+            "review": "Leading research in AI fairness and ethics.",
+            "workCulture": "Academic and policy-driven",
+            "salary": "$100,000 - $140,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "032",
+        "jobTitle": "Autonomous Systems Engineer",
+        "jobPostDate": "2025-04-07",
+        "description": "Design and implement AI algorithms for self-driving vehicles.",
+        "skillSet": ["Python", "ROS", "Deep Learning", "SLAM"],
+        "experience": "4-8 years",
+        "companyName": "AutoAI",
+        "jobLocation": "San Francisco, USA",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Exciting work on cutting-edge autonomous driving technologies.",
+            "workCulture": "Fast-paced and high-tech",
+            "salary": "$120,000 - $160,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "033",
+        "jobTitle": "AI Software Engineer",
+        "jobPostDate": "2025-04-08",
+        "description": "Develop AI-driven applications and integrate ML models into software.",
+        "skillSet": ["Python", "Java", "TensorFlow", "Docker"],
+        "experience": "3-6 years",
+        "companyName": "AI Software Solutions",
+        "jobLocation": "Chicago, USA",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Collaborative environment with a focus on AI-powered software.",
+            "workCulture": "Supportive and innovative",
+            "salary": "$100,000 - $135,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "034",
+        "jobTitle": "AI Hardware Engineer",
+        "jobPostDate": "2025-04-09",
+        "description": "Design and optimize AI accelerators and custom hardware for deep learning applications.",
+        "skillSet": ["Verilog", "CUDA", "TensorFlow", "Embedded Systems"],
+        "experience": "5-9 years",
+        "companyName": "AI Compute",
+        "jobLocation": "Austin, USA",
+        "companyReview": {
+            "workLifeBalance": "Moderate",
+            "review": "Involves cutting-edge AI chip development.",
+            "workCulture": "Highly technical and research-focused",
+            "salary": "$130,000 - $170,000",
+            "workingHours": "45 hrs/week"
+        }
+    },
+    {
+        "jobId": "035",
+        "jobTitle": "Generative AI Engineer",
+        "jobPostDate": "2025-04-10",
+        "description": "Develop generative AI models for creative applications like text, image, and video generation.",
+        "skillSet": ["Python", "GANs", "Stable Diffusion", "LLMs"],
+        "experience": "3-6 years",
+        "companyName": "CreativeAI",
+        "jobLocation": "Amsterdam, Netherlands",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Work on exciting AI-generated media and art projects.",
+            "workCulture": "Innovative and creative",
+            "salary": "€95,000 - €130,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "036",
+        "jobTitle": "AI Solutions Architect",
+        "jobPostDate": "2025-04-11",
+        "description": "Design scalable AI architectures and lead AI project implementations.",
+        "skillSet": ["Python", "Cloud Computing", "ML Pipelines", "Kubernetes"],
+        "experience": "6-10 years",
+        "companyName": "AI Systems Inc.",
+        "jobLocation": "Seattle, USA",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Great for AI enthusiasts who love designing large-scale systems.",
+            "workCulture": "Tech-driven and collaborative",
+            "salary": "$140,000 - $180,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "037",
+        "jobTitle": "AI Product Manager",
+        "jobPostDate": "2025-04-12",
+        "description": "Lead AI product development and manage cross-functional teams.",
+        "skillSet": ["Product Management", "AI Strategy", "Business Intelligence", "Python"],
+        "experience": "5-9 years",
+        "companyName": "AI Driven",
+        "jobLocation": "San Jose, USA",
+        "companyReview": {
+            "workLifeBalance": "Excellent",
+            "review": "Engaging role blending AI with business innovation.",
+            "workCulture": "Fast-paced and customer-focused",
+            "salary": "$130,000 - $170,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "038",
+        "jobTitle": "Reinforcement Learning Engineer",
+        "jobPostDate": "2025-04-13",
+        "description": "Develop reinforcement learning algorithms for robotics and gaming applications.",
+        "skillSet": ["Python", "RL Algorithms", "Gym", "Deep Learning"],
+        "experience": "4-7 years",
+        "companyName": "GameAI Labs",
+        "jobLocation": "Tokyo, Japan",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Challenging role with opportunities in AI gaming innovation.",
+            "workCulture": "Experimental and fast-paced",
+            "salary": "¥10,000,000 - ¥15,000,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "039",
+        "jobTitle": "AI Consultant",
+        "jobPostDate": "2025-04-14",
+        "description": "Provide AI-driven business solutions and strategy consultation for clients.",
+        "skillSet": ["Python", "Data Science", "Business Strategy", "AI Ethics"],
+        "experience": "5-8 years",
+        "companyName": "ConsultAI",
+        "jobLocation": "Paris, France",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Diverse projects in AI consulting across industries.",
+            "workCulture": "Client-driven and strategic",
+            "salary": "€95,000 - €130,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "040",
+        "jobTitle": "AI Security Engineer",
+        "jobPostDate": "2025-04-15",
+        "description": "Ensure AI model security and develop adversarial defense techniques.",
+        "skillSet": ["Cybersecurity", "Machine Learning", "Python", "Penetration Testing"],
+        "experience": "4-7 years",
+        "companyName": "SecureAI",
+        "jobLocation": "Berlin, Germany",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Critical role in securing AI systems.",
+            "workCulture": "Highly technical and security-focused",
+            "salary": "€100,000 - €140,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "041",
+        "jobTitle": "Edge AI Engineer",
+        "jobPostDate": "2025-04-16",
+        "description": "Develop AI models optimized for edge devices and IoT applications.",
+        "skillSet": ["Python", "Edge Computing", "TensorFlow Lite", "Embedded AI"],
+        "experience": "3-6 years",
+        "companyName": "EdgeML Tech",
+        "jobLocation": "Singapore",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Pioneering AI applications in IoT and smart devices.",
+            "workCulture": "Research-driven and innovative",
+            "salary": "SGD 110,000 - SGD 145,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "042",
+        "jobTitle": "AI Compliance Analyst",
+        "jobPostDate": "2025-04-17",
+        "description": "Ensure AI model compliance with global regulations and ethical standards.",
+        "skillSet": ["AI Ethics", "Data Privacy", "Legal Compliance", "Python"],
+        "experience": "4-7 years",
+        "companyName": "RegulAI",
+        "jobLocation": "Brussels, Belgium",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Interesting role at the intersection of AI and legal compliance.",
+            "workCulture": "Policy-driven and analytical",
+            "salary": "€90,000 - €125,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "043",
+        "jobTitle": "Explainable AI (XAI) Engineer",
+        "jobPostDate": "2025-04-18",
+        "description": "Develop interpretable AI models and ensure transparency in AI decision-making.",
+        "skillSet": ["Python", "SHAP", "LIME", "Machine Learning"],
+        "experience": "3-6 years",
+        "companyName": "XAI Solutions",
+        "jobLocation": "Toronto, Canada",
+        "companyReview": {
+            "workLifeBalance": "Excellent",
+            "review": "Focus on AI interpretability and transparency.",
+            "workCulture": "Research-oriented and collaborative",
+            "salary": "CAD 100,000 - CAD 130,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    { 
+        "jobId": "044",
+        "jobTitle": "AI Data Engineer",
+        "jobPostDate": "2025-04-19",
+        "description": "Build and maintain AI data pipelines and ensure data quality for ML models.",
+        "skillSet": ["Python", "Spark", "Kafka", "Big Data"],
+        "experience": "3-7 years",
+        "companyName": "DataAI Inc.",
+        "jobLocation": "Dublin, Ireland",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Strong focus on AI data infrastructure and ETL pipelines.",
+            "workCulture": "Data-driven and technically strong",
+            "salary": "€95,000 - €130,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "045",
+        "jobTitle": "Federated Learning Engineer",
+        "jobPostDate": "2025-04-20",
+        "description": "Develop privacy-preserving machine learning models using federated learning techniques.",
+        "skillSet": ["Python", "Federated Learning", "Secure Computation", "PySyft"],
+        "experience": "4-8 years",
+        "companyName": "PrivacyAI",
+        "jobLocation": "Zurich, Switzerland",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Exciting role at the frontier of AI privacy and security.",
+            "workCulture": "Highly technical and research-intensive",
+            "salary": "CHF 120,000 - CHF 160,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "046",
+        "jobTitle": "AI Research Scientist",
+        "jobPostDate": "2025-04-21",
+        "description": "Conduct research in AI and develop novel machine learning algorithms.",
+        "skillSet": ["Python", "Deep Learning", "Natural Language Processing", "Research"],
+        "experience": "5-10 years",
+        "companyName": "AI Research Labs",
+        "jobLocation": "San Francisco, USA",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Cutting-edge research environment with world-class AI experts.",
+            "workCulture": "Academia meets industry",
+            "salary": "$150,000 - $200,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "047",
+        "jobTitle": "AI Ethics Specialist",
+        "jobPostDate": "2025-04-22",
+        "description": "Ensure AI models align with ethical guidelines and regulatory policies.",
+        "skillSet": ["AI Ethics", "Policy Making", "Data Governance", "Machine Learning"],
+        "experience": "4-8 years",
+        "companyName": "EthicalAI",
+        "jobLocation": "London, UK",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Opportunity to shape the future of ethical AI development.",
+            "workCulture": "Policy-driven and interdisciplinary",
+            "salary": "£80,000 - £110,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "048",
+        "jobTitle": "Robotics AI Engineer",
+        "jobPostDate": "2025-04-23",
+        "description": "Develop AI-driven robotics applications for automation and intelligent systems.",
+        "skillSet": ["Python", "ROS", "Computer Vision", "Reinforcement Learning"],
+        "experience": "3-7 years",
+        "companyName": "RoboAI Innovations",
+        "jobLocation": "Seoul, South Korea",
+        "companyReview": {
+            "workLifeBalance": "Good",
+            "review": "Exciting projects in robotics and industrial automation.",
+            "workCulture": "Hands-on and innovation-focused",
+            "salary": "₩90,000,000 - ₩130,000,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "049",
+        "jobTitle": "AI Data Annotation Specialist",
+        "jobPostDate": "2025-04-24",
+        "description": "Manage and annotate training datasets for machine learning models.",
+        "skillSet": ["Data Labeling", "Python", "NLP", "Computer Vision"],
+        "experience": "2-5 years",
+        "companyName": "DataPrep AI",
+        "jobLocation": "Bangalore, India",
+        "companyReview": {
+            "workLifeBalance": "Great",
+            "review": "Essential role in ensuring high-quality AI datasets.",
+            "workCulture": "Detail-oriented and structured",
+            "salary": "₹10,00,000 - ₹18,00,000",
+            "workingHours": "40 hrs/week"
+        }
+    },
+    {
+        "jobId": "050",
+        "jobTitle": "AI-Powered Chatbot Developer",
+        "jobPostDate": "2025-04-25",
+        "description": "Design and develop AI-driven conversational agents for various industries.",
+        "skillSet": ["Python", "NLP", "Dialogflow", "Machine Learning"],
+        "experience": "3-6 years",
+        "companyName": "ConversAI",
+        "jobLocation": "Sydney, Australia",
+        "companyReview": {
+            "workLifeBalance": "Excellent",
+            "review": "Exciting role in conversational AI and virtual assistants.",
+            "workCulture": "Customer-focused and fast-paced",
+            "salary": "AUD 110,000 - AUD 150,000",
+            "workingHours": "40 hrs/week"
+        }
+    }
+  ]
