@@ -1,14 +1,11 @@
 package com.jobseeker.app.Model;
 
-import lombok.Data;
-
-@Data
 public class CompanyReview {
      private String workLifeBalance;
-        private String review;
-        private String workCulture;
-        private String salary;
-        private String workingHours;
+     private String review;
+     private String workCulture;
+     private String salary;
+     private String workingHours;
 
    public String getWorkLifeBalance() {
       return workLifeBalance;
