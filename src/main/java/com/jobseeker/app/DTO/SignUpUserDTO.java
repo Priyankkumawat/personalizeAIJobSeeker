@@ -1,5 +1,7 @@
 package com.jobseeker.app.DTO;
 
+import com.jobseeker.app.Model.Skill;
+
 import java.util.List;
 
 import jakarta.validation.constraints.Email;
@@ -19,7 +21,7 @@ public class SignUpUserDTO
     @Size(min = 8, max = 12, message = "Password must be between 8 and 12 characters")
     private String password;
 
-    private List<String> skills;
+    private List<String> skillList;
 
     public String getEmail()
     {
@@ -53,11 +55,11 @@ public class SignUpUserDTO
 
     public List<String> getSkills()
     {
-        return skills;
+        return skillList;
     }
 
     public void setSkills(List<String> skills)
     {
-        this.skills = skills;
+        this.skillList = skills;
     }
 }

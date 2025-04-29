@@ -2,11 +2,16 @@ package com.jobseeker.app.Service.ServiceInterface;
 
 import com.jobseeker.app.DTO.UserDTO;
 
+import java.util.List;
 import java.util.Optional;
 
 public interface UserService
 {
-    public UserDTO createUser(UserDTO userDTO);
+    public Optional<UserDTO> getUserByEmail(String email);
 
-    public Optional<UserDTO> getUserByUserName(String userName);
+    public Optional<List<UserDTO>> getAllUser();
+
+    public Optional<String> deleteUserByEmail(String email);
+
+    public Optional<UserDTO> getCurrentUser();
 }

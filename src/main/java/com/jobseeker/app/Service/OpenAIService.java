@@ -24,11 +24,15 @@ import java.util.List;
 
 @Service
 public class OpenAIService {
-    @Autowired
+
     private OpenAIConfig config;
 
-    @Autowired
     private JobDataLoader jobDataLoader;
+
+    public OpenAIService(OpenAIConfig config, JobDataLoader jobDataLoader) {
+        this.config = config;
+        this.jobDataLoader = jobDataLoader;
+    }
 
     public List<JobMatchResponse> getLLMResponse(JobMatchRequest request) throws IOException, InterruptedException {
         List<JobData> allJobs = jobDataLoader.getAllJobs();

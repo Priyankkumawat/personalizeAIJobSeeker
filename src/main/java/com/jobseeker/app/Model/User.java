@@ -2,20 +2,23 @@ package com.jobseeker.app.Model;
 
 import com.jobseeker.app.ENUM.Role;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
-import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -38,8 +41,8 @@ public class User implements UserDetails
     @Column(nullable = false)
     private Role role = Role.GUEST;
 
-    @ElementCollection
-    private List<String> skills;
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private List<Skill> skillList = new ArrayList<>();
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities()
@@ -127,13 +130,13 @@ public class User implements UserDetails
         this.role = role;
     }
 
-    public List<String> getSkills()
+    public List<Skill> getSkills()
     {
-        return skills;
+        return skillList;
     }
 
-    public void setSkills(List<String> skills)
+    public void setSkills(List<Skill> skills)
     {
-        this.skills = skills;
+        this.skillList = skills;
     }
 }

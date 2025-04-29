@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Configuration;
 @Setter
 public class OpenAIConfig {
     private String apiKey;
+    private String url;
+    private String chatModel;
 
     public String getApiKey() {
         return apiKey;
@@ -35,7 +37,4 @@ public class OpenAIConfig {
     public void setChatModel(String chatModel) {
         this.chatModel = chatModel;
     }
-
-    private String url;
-    private String chatModel;
 }

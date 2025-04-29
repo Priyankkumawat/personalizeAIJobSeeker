@@ -19,11 +19,11 @@ import io.jsonwebtoken.security.Keys;
 @Service
 public class JWTServiceImpl implements JWTService
 {
-    @Value("${spring.jwt.expiration-time}")
-    private static long expirationTime;
+    @Value("${security.jwt.expiration-time}")
+    private long expirationTime;
 
-    @Value("${spring.jwt.secret-key}")
-    private static String secretKey;
+    @Value("${security.jwt.secret-key}")
+    private String secretKey;
 
     @Override
     public String generateToken(String username)
@@ -66,18 +66,23 @@ public class JWTServiceImpl implements JWTService
         return extractAllClaims(token).getExpiration().before(new Date());
     }
 
-    private Claims extractAllClaims(String token)
-    {
-        return Jwts
-                .parser()
-                .verifyWith(getSignInKey())
-                .build()
-                .parseSignedClaims(token)
-                .getPayload();
+    private Claims extractAllClaims(String token) {
+        try {
+            return Jwts
+                    .parser()
+                    .verifyWith(getSignInKey())
+                    .build()
+                    .parseSignedClaims(token)
+                    .getPayload();
+        } catch (Exception e) {
+            System.out.println("Invalid or malformed token: " + e.getMessage());
+            return null; // Or throw a custom exception if needed
+        }
     }
 
     private SecretKey getSignInKey()
     {
+        System.out.println("secretKey : " + secretKey);
         byte[] keyBytes = Decoders.BASE64.decode(secretKey);
         return Keys.hmacShaKeyFor(keyBytes);
     }

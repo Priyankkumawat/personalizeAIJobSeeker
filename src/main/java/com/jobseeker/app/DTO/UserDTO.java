@@ -1,10 +1,10 @@
 package com.jobseeker.app.DTO;
 
+import com.jobseeker.app.Model.Skill;
+
+import java.util.ArrayList;
 import java.util.List;
-import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 @NoArgsConstructor
 public class UserDTO
@@ -13,9 +13,7 @@ public class UserDTO
 
     private String email;
 
-    private String password;
-
-    private List<String> skills;
+    private List<Skill> skillList = new ArrayList<>();
 
     private String token;
 
@@ -41,24 +39,14 @@ public class UserDTO
         this.email = email;
     }
 
-    public String getPassword()
+    public List<Skill> getSkills()
     {
-        return password;
+        return skillList;
     }
 
-    public void setPassword(String password)
+    public void setSkills(List<Skill> skills)
     {
-        this.password = password;
-    }
-
-    public List<String> getSkills()
-    {
-        return skills;
-    }
-
-    public void setSkills(List<String> skills)
-    {
-        this.skills = skills;
+        this.skillList = skills;
     }
 
     public String getToken()

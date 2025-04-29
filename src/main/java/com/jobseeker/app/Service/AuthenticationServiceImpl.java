@@ -4,10 +4,13 @@ import com.jobseeker.app.Configuration.ObjectConversion;
 import com.jobseeker.app.DTO.LoginUserDTO;
 import com.jobseeker.app.DTO.SignUpUserDTO;
 import com.jobseeker.app.DTO.UserDTO;
+import com.jobseeker.app.Model.Skill;
 import com.jobseeker.app.Model.User;
 import com.jobseeker.app.Repository.UserRepository;
 import com.jobseeker.app.Service.ServiceInterface.AuthenticationService;
 import com.jobseeker.app.Service.ServiceInterface.JWTService;
+
+import java.util.List;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -37,16 +40,25 @@ public class AuthenticationServiceImpl implements AuthenticationService
     @Override
     public UserDTO signUp(SignUpUserDTO signUpUserDTO)
     {
-        System.out.println("signUp serviceImpl : " + signUpUserDTO.getEmail());
         User user = new User();
         user.setEmail(signUpUserDTO.getEmail());
         user.setName(signUpUserDTO.getName());
-        user.setSkills(signUpUserDTO.getSkills());
+        user.setSkills(setSKill(signUpUserDTO.getSkills(), user));
         user.setPassword(passwordEncoder.encode(signUpUserDTO.getPassword()));
 
-        System.out.println("signUp serviceImpl : " + user.getEmail());
         User savedUser = userRepository.save(user);
+        System.out.println("signUp serviceImpl : " + savedUser.getEmail());
         return setToken(ObjectConversion.userDTOFromUser(savedUser));
+    }
+
+    private List<Skill> setSKill(List<String> skillList, User user)
+    {
+        return skillList.stream()
+                .map(skillName -> {
+                    Skill skill = ObjectConversion.skillFromStringSkill(skillName);
+                    skill.setUser(user);
+                    return skill;
+                }).toList();
     }
 
     @Override
@@ -58,6 +70,7 @@ public class AuthenticationServiceImpl implements AuthenticationService
                         loginUserDTO.getPassword()
                 )
         );
+        System.out.println("authenticate serviceImpl : " + loginUserDTO.getEmail());
         User user = userRepository.findByEmail(loginUserDTO.getEmail()).orElseThrow();
         return setToken(ObjectConversion.userDTOFromUser(user));
     }
@@ -65,6 +78,8 @@ public class AuthenticationServiceImpl implements AuthenticationService
     private UserDTO setToken(UserDTO userDTO)
     {
         String jwtToken = jwtService.generateToken(userDTO.getEmail());
+
+        System.out.println("AuthenticationServiceImpl jwtToken: " + jwtToken);
 
         userDTO.setToken(jwtToken);
 

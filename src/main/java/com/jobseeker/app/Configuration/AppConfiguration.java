@@ -44,6 +44,7 @@ public class AppConfiguration
     @Bean
     AuthenticationProvider authenticationProvider()
     {
+        System.out.println("authentication provider ");
         DaoAuthenticationProvider authenticationProvider = new DaoAuthenticationProvider();
 
         authenticationProvider.setUserDetailsService(userDetailsService());
